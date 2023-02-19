@@ -109,6 +109,7 @@ class App extends React.Component {
                 <a
                   className="testing-talks-logo"
                   href="/"
+                  data-id="header-logo"
                 >
                 </a>
               </div>
@@ -136,7 +137,7 @@ class App extends React.Component {
             <title>Create Contact</title>
         </Helmet>
         <div className="App">
-        <h1 className="create-contact">Create Contact</h1>
+        <h1 data-id="create-contact-header" className="create-contact">Create Contact</h1>
         <ContactForm
           contact={null}
           onSave={contact => this.onCreate(contact, history)}
