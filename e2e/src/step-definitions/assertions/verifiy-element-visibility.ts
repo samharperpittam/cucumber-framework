@@ -20,7 +20,5 @@ Then(
             const isElementVisible = (await page.$(elementIdentifier)) != null
             return isElementVisible;
         });
-
-        
-    }
+   }
 )
