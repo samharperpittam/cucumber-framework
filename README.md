@@ -147,7 +147,7 @@ For example:
     "contact": "[data-id='contact']"
 }
 ```
-The above is a selection of elementKeys that exist within the Home page of the application. The following cucumber feature would read the json file and try to match one of the elementKeys.
+The above is a selection of elementKeys that exist within the Home page of the application. The following cucumber statement would read the json file and try to match one of the elementKeys.
 
 `And I click the "create" button`
 
