@@ -1,8 +1,13 @@
-# Usage
+
+
+# Cheatsheet
 
 ## Navigation 
+
 Example
+
 `Given I am on the "elementKey" page`
+
 `When I am directed to the "elementKey" page`
 
 Step Definition
@@ -14,9 +19,12 @@ Step Definition
 
 ## Interactions
 
-- **Check Box**
+**Check Box**
+
 Example
+
 `And I check the "elementKey" check box`
+
 `And I uncheck the "elementKey" check box`
 
 Step Definition
@@ -25,8 +33,10 @@ Step Definition
 // Located: e2e/src/step-definitions/check.ts
 ```
 
-- **Radio Button**
+**Radio Button**
+
 Example
+
 Then I check the "elementKey" radio button
 
 Step Definition
@@ -35,9 +45,12 @@ Step Definition
 // Located: e2e/src/step-definitions/check.ts
 ```
 
-- **Forms**
+**Forms**
+
 Example
+
 `And I fill in the "elementKey" input with "Blah"`
+
 `And I select the "elementKey" option from the "elementKey"`
 
 Step Definition
@@ -47,8 +60,10 @@ Step Definition
 // Located e2e/src/step-definitions/form.ts
 ```
 
-- **Click**
+**Click**
+
 Example
+
 `And I click the "elementKey" button`
 
 Step Definition
@@ -59,8 +74,10 @@ Step Definition
 
 ### Verification
 
-- **Verify Element Checked**
+**Verify Element Checked**
+
 `And the "elementKey" radio button should be checked`
+
 `And the "elementKey" radio button should not be checked`
 
 Step Definition
@@ -69,14 +86,24 @@ Step Definition
 // Located e2e/src/step-definitions/assertions/verifiy-element-checked.ts
 ```
 
-- **Verify Element Value**
+**Verify Element Value**
+
+Example
+
 `And the "elementKey" should contain the text "Blah"`
+
 `And the "elementKey" should not contain the text "Blah"`
+
 `And the "elementKey" should equal the text "Blah"`
+
 `And the "elementKey" should not equal the text "Blah"`
+
 `And the "elementKey" should contain the value "Blah"`
+
 `And the "elementKey" should not contain the value "Blah"`
+
 `And the "elementKey" should equal the value "Blah"`
+
 `And the "elementKey" should not equal the value "Blah"`
 
 Step Definition
@@ -88,9 +115,12 @@ Step Definition
 // Located e2e/src/step-definitions/assertions/verifiy-element-value.ts
 ```
 
-- **Verify Element Visibility**
+**Verify Element Visibility**
+
 Example
+
 `And the "elementKey" should be displayed`
+
 `And the "elementKey" should not be displayed`
 
 Step Definition
@@ -100,7 +130,9 @@ Located e2e/src/step-definitions/assertions/verifiy-element-visibility.ts
 ```
 
 ## ElementKeys
+
 Element keys are stored within `e2e/config/mappings/` within various json files. Each json file correlates to a specific page within the application. Within the json file, we enter unique names and ids for elements that need to get passed through our cucumber steps. 
+
 For example:
 ```
 {
@@ -117,7 +149,8 @@ For example:
     "contact": "[data-id='contact']"
 }
 ```
-The above is a selection of elementKeys that exist within the Home page of the application. The following cucumber feature would read the json file and try to match one of the elementKeys.
+The above is a selection of elementKeys that exist within the Home page of the application. The following cucumber statement would read the json file and try to match one of the elementKeys.
+
 `And I click the "create" button`
 
 TBC....
