@@ -34,9 +34,11 @@ const worldParameters: GlobalConfig = {
 const common = `./src/features/**/*.feature \
                 --require-module ts-node/register \
                 --require ./src/step-definitions/**/**/*.ts \
-                --world-parameters ${JSON.stringify(worldParameters)} \
                 -f json:./reports/report.json \
-                --format progress-bar`;
+                --world-parameters ${JSON.stringify(worldParameters)} \
+                --format progress-bar \
+                --parallel ${env('PARALLEL')} \
+                --retry ${env('RETRY')}`;
 
 const dev = `${common} --tags '@dev'`;
 const smoke = `${common} --tags '@smoke'`;
