@@ -1,4 +1,11 @@
 {
     "female": "[value='female']",
-    "male": "[value='male']"
+    "male": "[value='male']",
+    "female label": "[data-id='female-radio-button']",
+    "male label": "[data-id='male-radio-button']",
+    "movies": "[id='movies-input']",
+    "the godfather": "//li[text()='The Godfather']",
+    "outline required": "[id='outlined-required']",
+    "outline disabled": "[id='outlined-disabled']",
+    "outlined read only": "[id='outlined-read-only-input']"
 }

@@ -4,160 +4,147 @@
     "elements": [
       {
         "description": "",
-        "id": "as-a-user-i-can-interact-with-radio-buttons;as-a-user-i-can-interact-and-assert-on-radio-buttons",
+        "id": "as-a-user-i-can-interact-with-autocomplete-inputs;as-a-user-i-can-interact-and-assert-on-inputs",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "As a user I can interact and assert on radio buttons",
+        "line": 17,
+        "name": "As a user I can interact and assert on inputs",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1881157124
+              "duration": 1228871230
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
+            "line": 18,
             "name": "I am on the \"home\" page",
             "match": {
               "location": "src/step-definitions/navigation.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 456494709
+              "duration": 534679119
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 19,
             "name": "I click the \"playground\" button",
             "match": {
               "location": "src/step-definitions/click.ts:8"
             },
             "result": {
               "status": "passed",
-              "duration": 169423750
+              "duration": 199091334
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 9,
+            "keyword": "When ",
+            "line": 20,
             "name": "I am directed to the \"playground\" page",
             "match": {
               "location": "src/step-definitions/navigation.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 310625
+              "duration": 504573
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 10,
-            "name": "the \"female\" radio button should be checked",
+            "line": 21,
+            "name": "the \"outline required\" should equal the value \"Testing\"",
             "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 225219874
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "the \"male\" radio button should not be checked",
-            "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27792541
+              "duration": 555995208
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 12,
-            "name": "I check the \"male\" radio button",
+            "line": 22,
+            "name": "the \"outline disabled\" should equal the value \"Talks\"",
             "match": {
-              "location": "src/step-definitions/check.ts:8"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 163594707
+              "duration": 20071619
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 13,
-            "name": "the \"male\" radio button should be checked",
+            "line": 23,
+            "name": "the \"outlined read only\" should equal the value \"Hub\"",
             "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 4553374
+              "duration": 9193188
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 14,
-            "name": "the \"female\" radio button should not be checked",
+            "line": 24,
+            "name": "the \"outline required\" should be enabled",
             "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:84"
             },
             "result": {
               "status": "passed",
-              "duration": 7439708
+              "duration": 6084877
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
-            "name": "I check the \"female\" radio button",
+            "line": 25,
+            "name": "the \"outline disabled\" should not be enabled",
             "match": {
-              "location": "src/step-definitions/check.ts:8"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:84"
             },
             "result": {
               "status": "passed",
-              "duration": 54674499
+              "duration": 5270450
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 16,
-            "name": "the \"female\" radio button should be checked",
+            "line": 26,
+            "name": "I fill in the \"outline required\" input with \"Testing Talks Online\"",
             "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
+              "location": "src/step-definitions/form.ts:7"
             },
             "result": {
               "status": "passed",
-              "duration": 11595042
+              "duration": 61465493
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
-            "name": "the \"male\" radio button should not be checked",
+            "line": 27,
+            "name": "the \"outline required\" should equal the value \"Testing Talks Online\"",
             "match": {
-              "location": "src/step-definitions/assertions/verifiy-element-checked.ts:7"
+              "location": "src/step-definitions/assertions/verifiy-element-value.ts:65"
             },
             "result": {
               "status": "passed",
-              "duration": 5416666
+              "duration": 10163816
             }
           },
           {
@@ -165,32 +152,32 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 204097084
+              "duration": 201269237
             }
           }
         ],
         "tags": [
           {
             "name": "@dev",
-            "line": 3
+            "line": 14
           },
           {
             "name": "@smoke",
-            "line": 4
+            "line": 15
           },
           {
             "name": "@regression",
-            "line": 5
+            "line": 16
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "as-a-user-i-can-interact-with-radio-buttons",
+    "id": "as-a-user-i-can-interact-with-autocomplete-inputs",
     "line": 1,
     "keyword": "Feature",
-    "name": "As a user I can interact with radio buttons",
+    "name": "As a user I can interact with autocomplete inputs",
     "tags": [],
-    "uri": "src/features/playground/radio-buttons.feature"
+    "uri": "src/features/playground/inputs.feature"
   }
 ]
