@@ -7,7 +7,14 @@ export const clickElement = async (
 ): Promise<void> => {
     await page.click(elementIdentifier)
 }
-
+export const clickElementAtIndex = async (
+    page: Page,
+    elementIdentifier: ElementLocator,
+    elementPosition: number,
+): Promise<void> => {
+    const element = await page.$(`${elementIdentifier}>>nth=${elementPosition}`)
+    await element?.click()
+}
 export const inputValue = async (
     page: Page,
     elementIdentifier: ElementLocator,

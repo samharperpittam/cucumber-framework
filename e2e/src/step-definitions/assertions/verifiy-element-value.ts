@@ -99,3 +99,22 @@ Then(
         })
     }
 )
+Then(
+    /^the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" "([^"]*)" should( not)? contain the text "(.*)"$/,
+    async function(this: ScenarioWorld, elementPosition: string,  elementKey: ElementKey, negate: boolean, expectedElementText: string) {
+        const {
+            screen: { page },
+            globalConfig,
+        } = this;
+
+        console.log(`the ${elementPosition} ${elementKey} should ${negate?'not':''}contain the text ${expectedElementText}`)
+
+        const pageIndex = Number(elementPosition.match(/\d/g)?.join('')) -1
+        const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
+   
+        await waitFor(async () => {
+            const elementText = await page.textContent(`${elementIdentifier}>>nth=${pageIndex}`);
+            return elementText?.includes(expectedElementText) === !negate;
+        })
+    }
+)
