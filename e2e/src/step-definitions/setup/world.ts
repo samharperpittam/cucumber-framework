@@ -12,7 +12,7 @@ import { //importing cucumber world functions
     setWorldConstructor
 } from "@cucumber/cucumber"; // leave as is
 
-import { GlobalConfig,  } from "../../env/global";
+import { GlobalConfig, GlobalVariables } from "../../env/global";
  
 export type Screen = { // create a  new type and export it so its acceptable
     browser: Browser;
@@ -25,9 +25,12 @@ export class ScenarioWorld extends World {
         super(options);
 
         this.globalConfig = options.parameters as GlobalConfig;
+        this.globalVariables = {}
     }
 
     globalConfig: GlobalConfig;
+
+    globalVariables: GlobalVariables;
 
     screen!: Screen;
  

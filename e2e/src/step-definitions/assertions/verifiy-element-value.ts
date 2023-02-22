@@ -3,7 +3,7 @@ import { ElementKey } from '../../env/global'
 import { getElementLocator } from '../../support/web-element-helper'
 import { ScenarioWorld } from "../setup/world";
 import { waitFor } from '../../support/wait-for-behaviour'
-import { getValue } from "../../support/html-behaviour"
+import { getValue, getAttributeText } from "../../support/html-behaviour"
 
 Then(
     /^the "([^"]*)" should( not)? contain the text "(.*)"$/,
@@ -118,3 +118,22 @@ Then(
         })
     }
 )
+Then(
+    /^the "([^"]*)" "([^"]*)" attribute should( not)? contain the text "(.*)"$/, //tooltips
+    async function(this: ScenarioWorld, elementKey: ElementKey, attribute: string, negate: boolean, expectedElementText: string) {
+        const {
+            screen: { page },
+            globalConfig,
+        } = this;
+
+        console.log(`the ${elementKey} ${attribute} attribute should ${negate?'not':''}contain the text ${expectedElementText}`)
+
+        const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
+   
+        await waitFor(async () => {
+            const attributeText = await getAttributeText(page, elementIdentifier, attribute)
+            return attributeText?.includes(expectedElementText) === !negate;
+        })
+    }
+)
+
