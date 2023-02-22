@@ -5,7 +5,7 @@ import { ScenarioWorld } from "../setup/world";
 import { waitFor } from '../../support/wait-for-behaviour'
 
 Then(
-    /^the "([^"]*)" (?:check box|radio button) should( not)? be checked$/,
+    /^the "([^"]*)" (?:check box|radio button|switch) should( not)? be checked$/,
     async function(this: ScenarioWorld, elementKey: ElementKey, negate: boolean) {
         const {
             screen: { page },
