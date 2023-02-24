@@ -1,6 +1,6 @@
 import { ScenarioWorld } from "./setup/world";
 import { When } from "@cucumber/cucumber";
-import { logger } from "../logger";
+import {logger} from "../logger";
 
 When(
     /^I click (accept)?(dismiss)? on the alert dialog$/,

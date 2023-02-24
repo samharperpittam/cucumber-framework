@@ -1,9 +1,12 @@
 import { Then } from '@cucumber/cucumber'
 import { ScenarioWorld } from './setup/world'
 import { getElementLocator } from '../support/web-element-helper'
-import { waitFor } from '../support/wait-for-behavior'
+import {
+    waitFor,
+    waitForSelector
+} from '../support/wait-for-behavior'
 import { ElementKey } from '../env/global'
-import { logger } from '../logger'
+import {logger} from "../logger";
 
 Then(
     /^I retrieve the "([^"]*)" text and store it as "([^"]*)" in global variables$/,
@@ -19,17 +22,16 @@ Then(
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
 
         await waitFor(async () => {
-          const result = await page.waitForSelector(elementIdentifier, {
-              state: 'visible'}
-          )
+          const elementStable = await waitForSelector(page, elementIdentifier)
 
-          if (result) {
+          if (elementStable) {
               const elementText = await page.textContent(elementIdentifier)
               if (elementText != null) {
                   globalVariables[variableKey] = elementText
               }
           }
-          return result;
+
+          return elementStable;
         })
 
     }

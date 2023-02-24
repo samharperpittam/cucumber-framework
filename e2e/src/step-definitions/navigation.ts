@@ -7,7 +7,7 @@ import {
 import { ScenarioWorld } from './setup/world';
 import { waitFor } from '../support/wait-for-behavior';
 import { PageId } from '../env/global';
-import { logger } from '../logger';
+import {logger} from "../logger";
 
 Given(
     /^I am on the "([^"]*)" page$/,
@@ -22,6 +22,7 @@ Given(
         await navigateToPage(page, pageId, globalConfig);
 
         await waitFor(() => currentPathMatchesPageId(page, pageId, globalConfig));
+
     }
 )
 

@@ -1,6 +1,6 @@
 import { Then } from '@cucumber/cucumber'
 import { ScenarioWorld } from './setup/world'
-import { logger } from '../logger';
+import {logger} from "../logger";
 
 Then(
     /^I wait "([^"]*)" seconds?$/,

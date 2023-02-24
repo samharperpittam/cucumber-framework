@@ -1,16 +1,19 @@
 import { Then } from '@cucumber/cucumber';
 import {
-    selectValue,
-    inputValue,
+    selectElementValue,
+    inputElementValue,
 } from '../support/html-behavior';
 import {
     parseInput,
 } from '../support/input-helper';
-import { waitFor } from '../support/wait-for-behavior';
+import {
+    waitFor,
+    waitForSelector
+} from '../support/wait-for-behavior';
 import { getElementLocator } from '../support/web-element-helper';
 import { ScenarioWorld } from './setup/world';
 import { ElementKey } from '../env/global';
-import { logger } from '../logger';
+import {logger} from "../logger";
 
 Then (
     /^I fill in the "([^"]*)" input with "([^"]*)"$/,
@@ -23,14 +26,16 @@ Then (
         logger.log(`I fill in the ${elementKey} input with ${input}`);
 
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig);
-        await waitFor(async () => {
-            const result = await page.waitForSelector(elementIdentifier, { state: 'visible' });
 
-            if (result) {
+        await waitFor(async () => {
+            const elementStable = await waitForSelector(page, elementIdentifier)
+
+            if (elementStable) {
                 const parsedInput = parseInput(input, globalConfig)
-                await inputValue(page, elementIdentifier, parsedInput);
+                await inputElementValue(page, elementIdentifier, parsedInput);
             }
-            return result;
+
+            return elementStable;
         });
     }
 );
@@ -44,15 +49,17 @@ Then(
         } = this;
 
         logger.log(`I select the ${option} option from the ${elementKey}`);
+
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig);
 
         await waitFor(async () => {
-            const result = await page.waitForSelector(elementIdentifier, { state: 'visible' });
+            const elementStable = await waitForSelector(page, elementIdentifier)
 
-            if (result) {
-                await selectValue(page, elementIdentifier, option);
+            if (elementStable) {
+                await selectElementValue(page, elementIdentifier, option);
             }
-            return result;
+
+            return elementStable;
         });
     }
 );

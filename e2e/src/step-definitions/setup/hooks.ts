@@ -1,8 +1,9 @@
-import {Before, After, ITestCaseHookParameter, setDefaultTimeout} from "@cucumber/cucumber";
+import {Before, After, setDefaultTimeout} from "@cucumber/cucumber";
+import { getViewPort } from '../../support/browser-behavior'
 import { ScenarioWorld } from './world'
+
 import { env, envNumber } from '../../env/parseEnv'
-import { getViewPort } from "../../support/browser-behaviour";
-import { logger } from "../../logger";
+import {logger} from "../../logger";
 
 setDefaultTimeout(envNumber('SCRIPT_TIMEOUT'));
 

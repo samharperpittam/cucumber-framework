@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3791306975
+              "duration": 3785537847
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2061329196.0000002
+              "duration": 5203875598
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I click the \"create\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 653455875
+              "duration": 431920313
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I am directed to the \"create contact\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 13827199
+              "duration": 3059401
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "the \"create contact header\" should contain the text \"Create Contact\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 169027198
+              "duration": 26086782
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "I fill in the \"name\" input with \"Terry Barks\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 174684284
+              "duration": 98375889
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 11,
             "name": "I select the \"Male\" option from the \"gender\"",
             "match": {
-              "location": "src/step-definitions/form.ts:38"
+              "location": "src/step-definitions/form.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 37970936
+              "duration": 155974844
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 12,
             "name": "I fill in the \"phone\" input with \"939-555-0113\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 117951444
+              "duration": 42313802
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 13,
             "name": "I fill in the \"street\" input with \"742 Puma Terrace\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 84159615
+              "duration": 34753058
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 14,
             "name": "I fill in the \"city\" input with \"Springfield\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 32358507.000000004
+              "duration": 107134176
             }
           },
           {
@@ -140,11 +140,11 @@
             "line": 15,
             "name": "I click the \"save\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 301301701
+              "duration": 350110666
             }
           },
           {
@@ -153,11 +153,11 @@
             "line": 16,
             "name": "I am directed to the \"home\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 432202
+              "duration": 509148.99999999994
             }
           },
           {
@@ -166,11 +166,11 @@
             "line": 18,
             "name": "I fill in the \"search\" input with \"Terry Barks\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 56454815
+              "duration": 90267574
             }
           },
           {
@@ -179,11 +179,11 @@
             "line": 19,
             "name": "the \"search\" should not equal the text \"Terry Bark\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 11882803
+              "duration": 53587325
             }
           },
           {
@@ -192,11 +192,11 @@
             "line": 20,
             "name": "the \"contact\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 9026365
+              "duration": 9571159
             }
           },
           {
@@ -205,11 +205,11 @@
             "line": 21,
             "name": "the \"full name label\" should contain the text \"Name:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 7711553
+              "duration": 13295179
             }
           },
           {
@@ -218,11 +218,11 @@
             "line": 22,
             "name": "the \"name\" should equal the text \"Terry Barks\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 5420066
+              "duration": 15566403
             }
           },
           {
@@ -231,11 +231,11 @@
             "line": 23,
             "name": "the \"gender label\" should contain the text \"Gender:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 4557316
+              "duration": 60572513
             }
           },
           {
@@ -244,11 +244,11 @@
             "line": 24,
             "name": "the \"gender\" should equal the text \"Male\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 52213077
+              "duration": 68649973
             }
           },
           {
@@ -257,11 +257,11 @@
             "line": 25,
             "name": "the \"address label\" should contain the text \"Address:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 12880704
+              "duration": 27620703
             }
           },
           {
@@ -270,11 +270,11 @@
             "line": 26,
             "name": "the \"address\" should equal the text \"742 Puma Terrace, Springfield\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 6128289
+              "duration": 14676431
             }
           },
           {
@@ -283,11 +283,11 @@
             "line": 27,
             "name": "the \"edit\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 9149725
+              "duration": 6671655
             }
           },
           {
@@ -296,11 +296,11 @@
             "line": 28,
             "name": "the \"delete\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 4334351
+              "duration": 10654752
             }
           },
           {
@@ -308,7 +308,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1194480354
+              "duration": 835063434
             }
           }
         ],
@@ -336,7 +336,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3675421891
+              "duration": 3862203722
             }
           },
           {
@@ -349,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1983797250
+              "duration": 4822503150
             }
           },
           {
@@ -358,11 +358,11 @@
             "line": 34,
             "name": "I click the \"create\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 358564855
+              "duration": 540931715
             }
           },
           {
@@ -371,11 +371,11 @@
             "line": 35,
             "name": "I am directed to the \"create contact\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 6695624
+              "duration": 1991486
             }
           },
           {
@@ -384,11 +384,11 @@
             "line": 36,
             "name": "the \"create contact header\" should contain the text \"Create Contact\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 10442592
+              "duration": 35641358
             }
           },
           {
@@ -397,11 +397,11 @@
             "line": 37,
             "name": "I fill in the \"name\" input with \"Tanya Hardie\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 52265134
+              "duration": 73291028
             }
           },
           {
@@ -410,11 +410,11 @@
             "line": 38,
             "name": "I select the \"Female\" option from the \"gender\"",
             "match": {
-              "location": "src/step-definitions/form.ts:38"
+              "location": "src/step-definitions/form.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 424321886
+              "duration": 231643532
             }
           },
           {
@@ -423,11 +423,11 @@
             "line": 39,
             "name": "I fill in the \"phone\" input with \"0434677333\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 391207805
+              "duration": 37896761
             }
           },
           {
@@ -436,11 +436,11 @@
             "line": 40,
             "name": "I fill in the \"street\" input with \"152 Margi Court\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 169944840
+              "duration": 53227403
             }
           },
           {
@@ -449,11 +449,11 @@
             "line": 41,
             "name": "I fill in the \"city\" input with \"Shelbyville\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 67398108
+              "duration": 156368041
             }
           },
           {
@@ -462,11 +462,11 @@
             "line": 42,
             "name": "I click the \"save\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 100092381
+              "duration": 203283201
             }
           },
           {
@@ -475,11 +475,11 @@
             "line": 43,
             "name": "I am directed to the \"home\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 867529
+              "duration": 544871
             }
           },
           {
@@ -488,11 +488,11 @@
             "line": 45,
             "name": "I fill in the \"search\" input with \"Tanya Hardie\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 34584794
+              "duration": 62858806
             }
           },
           {
@@ -501,11 +501,11 @@
             "line": 46,
             "name": "the \"contact\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 11221679
+              "duration": 21249655
             }
           },
           {
@@ -514,11 +514,11 @@
             "line": 47,
             "name": "the \"full name label\" should contain the text \"Name:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 7669691
+              "duration": 21577243
             }
           },
           {
@@ -527,11 +527,11 @@
             "line": 48,
             "name": "the \"name\" should equal the text \"Tanya Hardie\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 17061604
+              "duration": 19414212
             }
           },
           {
@@ -540,11 +540,11 @@
             "line": 49,
             "name": "the \"gender label\" should contain the text \"Gender:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 6013197
+              "duration": 17570952
             }
           },
           {
@@ -553,11 +553,11 @@
             "line": 50,
             "name": "the \"gender\" should equal the text \"Female\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 7962733
+              "duration": 40445000
             }
           },
           {
@@ -566,11 +566,11 @@
             "line": 51,
             "name": "the \"address label\" should contain the text \"Address:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 4879905
+              "duration": 21520664
             }
           },
           {
@@ -579,11 +579,11 @@
             "line": 52,
             "name": "the \"address\" should equal the text \"152 Margi Court, Shelbyville\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 4582512
+              "duration": 17374390
             }
           },
           {
@@ -592,11 +592,11 @@
             "line": 53,
             "name": "the \"edit\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 70678409
+              "duration": 7499956
             }
           },
           {
@@ -605,11 +605,11 @@
             "line": 54,
             "name": "the \"delete\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 10357295
+              "duration": 10166008
             }
           },
           {
@@ -618,11 +618,11 @@
             "line": 56,
             "name": "I refresh the \"home\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:42"
+              "location": "src/step-definitions/navigation.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 602855076
+              "duration": 837683439
             }
           },
           {
@@ -631,11 +631,11 @@
             "line": 58,
             "name": "I fill in the \"search\" input with \"Tanya Hardie\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 109287203
+              "duration": 63638992
             }
           },
           {
@@ -644,11 +644,11 @@
             "line": 59,
             "name": "the \"contact\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 6168801
+              "duration": 2682160
             }
           },
           {
@@ -656,7 +656,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 725706180
+              "duration": 1784326042.0000002
             }
           }
         ],
@@ -687,7 +687,7 @@
         "description": "",
         "id": "as-a-user-i-expect-to-be-able-to-create-contacts;as-a-user-i-expect-to-be-able-to-create-a-new-contact",
         "keyword": "Scenario",
-        "line": 6,
+        "line": 5,
         "name": "As a user I expect to be able to create a new contact",
         "steps": [
           {
@@ -695,46 +695,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3768991373
+              "duration": 3754069683
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
+            "line": 6,
             "name": "I am on the \"home\" page",
             "match": {
               "location": "src/step-definitions/navigation.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2404535562
+              "duration": 2888932300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
+            "line": 7,
             "name": "the \"header logo\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 117683757
+              "duration": 257291303.00000003
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 8,
             "name": "the \"contacts header\" should contain the text \"Contacts\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 14181548
+              "duration": 341795284
             }
           },
           {
@@ -742,22 +742,18 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2560409217
+              "duration": 348374361
             }
           }
         ],
         "tags": [
           {
-            "name": "@dev",
+            "name": "@smoke",
             "line": 3
           },
           {
-            "name": "@smoke",
-            "line": 4
-          },
-          {
             "name": "@regression",
-            "line": 5
+            "line": 4
           }
         ],
         "type": "scenario"
@@ -766,7 +762,7 @@
         "description": "",
         "id": "as-a-user-i-expect-to-be-able-to-create-contacts;as-a-user-i-don't-expect-to-see-a-contact-that-does-not-exist",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 12,
         "name": "As a user I don't expect to see a contact that does not exist",
         "steps": [
           {
@@ -774,46 +770,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3720547206
+              "duration": 3772168377
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 13,
             "name": "I am on the \"home\" page",
             "match": {
               "location": "src/step-definitions/navigation.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2443640336
+              "duration": 1858766185
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
+            "line": 14,
             "name": "I fill in the \"search\" input with \"Funky Name\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 386850956
+              "duration": 127966349
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
+            "line": 15,
             "name": "the \"contact\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 7006963
+              "duration": 7290591
             }
           },
           {
@@ -821,18 +817,18 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2212314348
+              "duration": 665555916
             }
           }
         ],
         "tags": [
           {
             "name": "@smoke",
-            "line": 11
+            "line": 10
           },
           {
             "name": "@regression",
-            "line": 12
+            "line": 11
           }
         ],
         "type": "scenario"
@@ -860,7 +856,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3579189794
+              "duration": 3853281320
             }
           },
           {
@@ -873,7 +869,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1849783313
+              "duration": 5002385687
             }
           },
           {
@@ -882,11 +878,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 884154329
+              "duration": 390018402
             }
           },
           {
@@ -895,11 +891,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 1781562
+              "duration": 3126783
             }
           },
           {
@@ -908,11 +904,11 @@
             "line": 9,
             "name": "the \"1st\" \"avatar\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:27"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 1583762037
+              "duration": 2268124886
             }
           },
           {
@@ -921,11 +917,11 @@
             "line": 10,
             "name": "the \"2nd\" \"avatar\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:27"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:32"
             },
             "result": {
               "status": "passed",
-              "duration": 405262671
+              "duration": 34998685
             }
           },
           {
@@ -934,11 +930,11 @@
             "line": 11,
             "name": "the \"small avatar\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 7728891
+              "duration": 11432569
             }
           },
           {
@@ -947,11 +943,11 @@
             "line": 12,
             "name": "I should see \"2\" \"avatar\" displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:47"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:52"
             },
             "result": {
               "status": "passed",
-              "duration": 9437199
+              "duration": 772623888
             }
           },
           {
@@ -959,7 +955,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 474737380
+              "duration": 566141221
             }
           }
         ],
@@ -998,7 +994,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3488886569
+              "duration": 3718719684
             }
           },
           {
@@ -1011,7 +1007,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2210316139
+              "duration": 5026785409
             }
           },
           {
@@ -1020,11 +1016,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 714303964
+              "duration": 430152489
             }
           },
           {
@@ -1033,11 +1029,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 4455350
+              "duration": 3097422
             }
           },
           {
@@ -1046,11 +1042,11 @@
             "line": 9,
             "name": "I click the \"browser alert\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 2105731077
+              "duration": 4290457058
             }
           },
           {
@@ -1063,7 +1059,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2823637
+              "duration": 3692063
             }
           },
           {
@@ -1072,11 +1068,11 @@
             "line": 11,
             "name": "I click the \"browser alert\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1446320373
+              "duration": 1059118165.0000001
             }
           },
           {
@@ -1089,7 +1085,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 449521
+              "duration": 1573008
             }
           },
           {
@@ -1097,7 +1093,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1260036358
+              "duration": 800769546
             }
           }
         ],
@@ -1136,7 +1132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2322687146
+              "duration": 1598190717
             }
           },
           {
@@ -1149,7 +1145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1772135022
+              "duration": 4981885260
             }
           },
           {
@@ -1158,11 +1154,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 742191697
+              "duration": 698040252
             }
           },
           {
@@ -1171,11 +1167,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 3559358
+              "duration": 2275730
             }
           },
           {
@@ -1184,11 +1180,11 @@
             "line": 9,
             "name": "I click the \"1st\" \"my button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:36"
+              "location": "src/step-definitions/click.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 3740674731
+              "duration": 4246595542
             }
           },
           {
@@ -1197,11 +1193,11 @@
             "line": 10,
             "name": "the \"1st\" \"my button\" should contain the text \"One\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:113"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:151"
             },
             "result": {
               "status": "passed",
-              "duration": 194209717
+              "duration": 413114497
             }
           },
           {
@@ -1210,11 +1206,11 @@
             "line": 11,
             "name": "I click the \"2nd\" \"my button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:36"
+              "location": "src/step-definitions/click.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 236460821
+              "duration": 163734582
             }
           },
           {
@@ -1223,11 +1219,11 @@
             "line": 12,
             "name": "the \"2nd\" \"my button\" should contain the text \"Two\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:113"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:151"
             },
             "result": {
               "status": "passed",
-              "duration": 45656435
+              "duration": 25946684
             }
           },
           {
@@ -1236,11 +1232,11 @@
             "line": 13,
             "name": "I click the \"3rd\" \"my button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:36"
+              "location": "src/step-definitions/click.ts:39"
             },
             "result": {
               "status": "passed",
-              "duration": 280477530
+              "duration": 273779237
             }
           },
           {
@@ -1249,11 +1245,11 @@
             "line": 14,
             "name": "the \"3rd\" \"my button\" should contain the text \"Three\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:113"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:151"
             },
             "result": {
               "status": "passed",
-              "duration": 11395947
+              "duration": 19273202
             }
           },
           {
@@ -1261,7 +1257,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2316685892
+              "duration": 953602003
             }
           }
         ],
@@ -1300,7 +1296,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2199437132
+              "duration": 2014380834
             }
           },
           {
@@ -1313,7 +1309,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1981593032
+              "duration": 2405085321
             }
           },
           {
@@ -1322,11 +1318,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 395329717
+              "duration": 295935750
             }
           },
           {
@@ -1335,11 +1331,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 450917
+              "duration": 4622936
             }
           },
           {
@@ -1348,11 +1344,11 @@
             "line": 9,
             "name": "the \"card header\" should contain the text \"Word of the Day\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2093120203.9999998
+              "duration": 4639013909
             }
           },
           {
@@ -1361,11 +1357,11 @@
             "line": 10,
             "name": "the \"card main\" should contain the text \"Automation\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1131483198
+              "duration": 17661081
             }
           },
           {
@@ -1374,11 +1370,11 @@
             "line": 11,
             "name": "the \"card type\" should contain the text \"noun\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 21416671
+              "duration": 20383471
             }
           },
           {
@@ -1387,11 +1383,11 @@
             "line": 12,
             "name": "the \"card overview\" should contain the text \"Automate the execution of tests\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 8287838.000000001
+              "duration": 14343481
             }
           },
           {
@@ -1400,11 +1396,11 @@
             "line": 13,
             "name": "the \"card overview\" should contain the text \"\"compares actual with expected\"\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 13205446
+              "duration": 13296401
             }
           },
           {
@@ -1413,11 +1409,11 @@
             "line": 14,
             "name": "the \"card action\" should contain the text \"Learn More\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 162252483
+              "duration": 16575983.999999998
             }
           },
           {
@@ -1425,7 +1421,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2136367806.0000002
+              "duration": 277969027
             }
           }
         ],
@@ -1456,7 +1452,7 @@
         "description": "",
         "id": "as-a-user-i-can-interact-with-checkboxes;as-a-user-i-can-interact-and-assert-on-checkboxes",
         "keyword": "Scenario",
-        "line": 5,
+        "line": 6,
         "name": "As a user I can interact and assert on checkboxes",
         "steps": [
           {
@@ -1464,137 +1460,137 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2277216452
+              "duration": 1624383143
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 6,
+            "line": 7,
             "name": "I am on the \"home\" page",
             "match": {
               "location": "src/step-definitions/navigation.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2343227286
+              "duration": 5156500038
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 8,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 347444927
+              "duration": 466836962
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 9,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 249846
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the \"blue\" check box should not be checked",
-            "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2278417573
+              "duration": 596415
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "I check the \"green\" check box",
+            "name": "the \"blue\" check box should not be checked",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1182859369
+              "duration": 4257381877
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 11,
-            "name": "I check the \"grey\" check box",
+            "name": "I check the \"green\" check box",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 194823275
+              "duration": 177432978
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the \"red\" check box should not be checked",
+            "name": "I check the \"grey\" check box",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 9439748
+              "duration": 229017149
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 13,
-            "name": "the \"purple\" check box should not be checked",
+            "name": "the \"red\" check box should not be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 47440899
+              "duration": 27469686
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 14,
-            "name": "I uncheck the \"green\" check box",
+            "name": "the \"purple\" check box should not be checked",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 299378298
+              "duration": 36828373
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "the \"green\" check box should not be checked",
+            "name": "I uncheck the \"green\" check box",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 6720575
+              "duration": 176295946
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the \"green\" check box should not be checked",
+            "match": {
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19984730
             }
           },
           {
@@ -1602,18 +1598,18 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2453919288
+              "duration": 949818623
             }
           }
         ],
         "tags": [
           {
             "name": "@smoke",
-            "line": 3
+            "line": 4
           },
           {
             "name": "@regression",
-            "line": 4
+            "line": 5
           }
         ],
         "type": "scenario"
@@ -1641,7 +1637,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2151145774
+              "duration": 2250218443
             }
           },
           {
@@ -1654,7 +1650,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1771377344
+              "duration": 2401408000
             }
           },
           {
@@ -1663,11 +1659,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 531038529.00000006
+              "duration": 753294954
             }
           },
           {
@@ -1676,11 +1672,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 3706278
+              "duration": 560963
             }
           },
           {
@@ -1689,11 +1685,11 @@
             "line": 9,
             "name": "I click the \"drop down button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 3457707410
+              "duration": 4824749224
             }
           },
           {
@@ -1702,11 +1698,11 @@
             "line": 10,
             "name": "the \"drop down profile\" should contain the text \"Profile\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 215329313
+              "duration": 112464869
             }
           },
           {
@@ -1715,11 +1711,11 @@
             "line": 11,
             "name": "the \"drop down my account\" should contain the text \"My account\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 14732908
+              "duration": 74552830
             }
           },
           {
@@ -1728,11 +1724,11 @@
             "line": 12,
             "name": "the \"drop down logout\" should contain the text \"Logout\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 7039656
+              "duration": 99998768
             }
           },
           {
@@ -1741,11 +1737,11 @@
             "line": 13,
             "name": "I click the \"drop down profile\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 340548029
+              "duration": 285504454
             }
           },
           {
@@ -1754,11 +1750,11 @@
             "line": 14,
             "name": "I click the \"drop down button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 411756617
+              "duration": 704570252
             }
           },
           {
@@ -1767,11 +1763,11 @@
             "line": 15,
             "name": "I click the \"drop down my account\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 261005934.00000003
+              "duration": 264599131
             }
           },
           {
@@ -1780,11 +1776,11 @@
             "line": 16,
             "name": "I click the \"drop down button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 485318902
+              "duration": 1402075105
             }
           },
           {
@@ -1793,11 +1789,11 @@
             "line": 17,
             "name": "I click the \"drop down logout\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 212981257
+              "duration": 326955047
             }
           },
           {
@@ -1806,11 +1802,11 @@
             "line": 18,
             "name": "the \"drop down profile\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2010468905
+              "duration": 2022229561
             }
           },
           {
@@ -1819,11 +1815,11 @@
             "line": 19,
             "name": "the \"drop down my account\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 4159313
+              "duration": 3763224
             }
           },
           {
@@ -1832,11 +1828,11 @@
             "line": 20,
             "name": "the \"drop down logout\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3500826
+              "duration": 3463943
             }
           },
           {
@@ -1844,7 +1840,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3086293370
+              "duration": 1179620725
             }
           }
         ],
@@ -1883,7 +1879,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2354876749
+              "duration": 2238130451
             }
           },
           {
@@ -1896,7 +1892,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2010555611
+              "duration": 2308926477
             }
           },
           {
@@ -1905,11 +1901,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 410903483
+              "duration": 452828232
             }
           },
           {
@@ -1918,11 +1914,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 2684103
+              "duration": 916161
             }
           },
           {
@@ -1931,11 +1927,11 @@
             "line": 9,
             "name": "the \"show hide text\" should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3065641181
+              "duration": 2565821442
             }
           },
           {
@@ -1944,11 +1940,11 @@
             "line": 10,
             "name": "the \"show hide text\" should contain the text \"This is visible\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 30211295
+              "duration": 988422746
             }
           },
           {
@@ -1957,11 +1953,11 @@
             "line": 11,
             "name": "I click the \"show hide button\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 404849002
+              "duration": 154275823
             }
           },
           {
@@ -1970,11 +1966,11 @@
             "line": 12,
             "name": "the \"show hide text\" should not be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-visibility.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-visibility.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 4974970
+              "duration": 4156361.0000000005
             }
           },
           {
@@ -1982,7 +1978,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1833495723
+              "duration": 414009705
             }
           }
         ],
@@ -2021,7 +2017,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1758622466
+              "duration": 1696700077.9999998
             }
           },
           {
@@ -2034,7 +2030,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1682255896.0000002
+              "duration": 2571035273
             }
           },
           {
@@ -2043,11 +2039,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 305350118
+              "duration": 454149598
             }
           },
           {
@@ -2056,11 +2052,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 730319
+              "duration": 1175255
             }
           },
           {
@@ -2069,11 +2065,11 @@
             "line": 9,
             "name": "I scroll to the \"basic iframe\"",
             "match": {
-              "location": "src/step-definitions/scoll.ts:11"
+              "location": "src/step-definitions/scoll.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 3883049630
+              "duration": 4593812400
             }
           },
           {
@@ -2082,11 +2078,11 @@
             "line": 10,
             "name": "I fill in the \"search\" input on the \"basic iframe\" iframe with \"Abraham Perry\"",
             "match": {
-              "location": "src/step-definitions/iframe.ts:12"
+              "location": "src/step-definitions/iframe.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 202902390
+              "duration": 77515226
             }
           },
           {
@@ -2095,11 +2091,11 @@
             "line": 11,
             "name": "the \"contact\" on the \"basic iframe\" iframe should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:9"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 35967331
+              "duration": 88695152
             }
           },
           {
@@ -2108,11 +2104,11 @@
             "line": 12,
             "name": "the \"full name label\" on the \"basic iframe\" iframe should contain the text \"Name:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:30"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 214023647
+              "duration": 174470555
             }
           },
           {
@@ -2121,11 +2117,11 @@
             "line": 13,
             "name": "the \"name\" on the \"basic iframe\" iframe should equal the text \"Abraham Perry\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:51"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 35466336
+              "duration": 31376978
             }
           },
           {
@@ -2134,11 +2130,11 @@
             "line": 14,
             "name": "the \"gender label\" on the \"basic iframe\" iframe should contain the text \"Gender:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:30"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 28749175
+              "duration": 34159916
             }
           },
           {
@@ -2147,11 +2143,11 @@
             "line": 15,
             "name": "the \"gender\" on the \"basic iframe\" iframe should equal the text \"Male\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:51"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 40022253
+              "duration": 30555734
             }
           },
           {
@@ -2160,11 +2156,11 @@
             "line": 16,
             "name": "the \"address label\" on the \"basic iframe\" iframe should contain the text \"Address:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:30"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 134469595
+              "duration": 222341236
             }
           },
           {
@@ -2173,11 +2169,11 @@
             "line": 17,
             "name": "the \"address\" on the \"basic iframe\" iframe should equal the text \"Ap #826-8849 Vulputate Street, Laramie\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:51"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:79"
             },
             "result": {
               "status": "passed",
-              "duration": 34139064
+              "duration": 110608869
             }
           },
           {
@@ -2186,11 +2182,11 @@
             "line": 18,
             "name": "the \"edit\" on the \"basic iframe\" iframe should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:9"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 21000063
+              "duration": 41804601
             }
           },
           {
@@ -2199,11 +2195,11 @@
             "line": 19,
             "name": "the \"delete\" on the \"basic iframe\" iframe should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-iframe.ts:9"
+              "location": "src/step-definitions/assertions/verify-iframe.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 20205829
+              "duration": 122073849
             }
           },
           {
@@ -2211,7 +2207,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 765340762
+              "duration": 1751467080
             }
           }
         ],
@@ -2250,7 +2246,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1868313101
+              "duration": 2156069411
             }
           },
           {
@@ -2263,7 +2259,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1850883285
+              "duration": 2778916398.9999995
             }
           },
           {
@@ -2272,11 +2268,11 @@
             "line": 8,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 601335168
+              "duration": 544831963
             }
           },
           {
@@ -2285,11 +2281,11 @@
             "line": 9,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 266113
+              "duration": 403525
             }
           },
           {
@@ -2298,11 +2294,11 @@
             "line": 10,
             "name": "I fill in the \"movies\" input with \"The G\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3427395526.0000005
+              "duration": 5009701070
             }
           },
           {
@@ -2311,11 +2307,11 @@
             "line": 11,
             "name": "I click the \"the godfather\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 247350576
+              "duration": 431250170
             }
           },
           {
@@ -2324,11 +2320,11 @@
             "line": 12,
             "name": "the \"movies\" should contain the value \"The Godfather\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 20639306
+              "duration": 36227784
             }
           },
           {
@@ -2337,11 +2333,11 @@
             "line": 13,
             "name": "the \"movies\" should not contain the value \"The Godfather: Part II\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 15803983
+              "duration": 39284244
             }
           },
           {
@@ -2349,7 +2345,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1537999168
+              "duration": 1289202784
             }
           }
         ],
@@ -2377,7 +2373,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1814734469.9999998
+              "duration": 2250449443
             }
           },
           {
@@ -2390,7 +2386,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2043278016
+              "duration": 2717511739
             }
           },
           {
@@ -2399,11 +2395,11 @@
             "line": 8,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 423447196
+              "duration": 764880883
             }
           },
           {
@@ -2412,11 +2408,11 @@
             "line": 9,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 328042
+              "duration": 570454
             }
           },
           {
@@ -2425,11 +2421,11 @@
             "line": 10,
             "name": "I fill in the \"movies\" input with \"The D\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3566516546
+              "duration": 4259164869
             }
           },
           {
@@ -2438,11 +2434,11 @@
             "line": 11,
             "name": "I click the \"the dark knight\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 216307693
+              "duration": 416800285
             }
           },
           {
@@ -2451,11 +2447,11 @@
             "line": 12,
             "name": "the \"movies\" should contain the value \"The Dark Knight\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 160839735
+              "duration": 167696195
             }
           },
           {
@@ -2464,11 +2460,11 @@
             "line": 13,
             "name": "the \"movies\" should not contain the value \"The Godfather: Part II\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 17946278
+              "duration": 32413662.000000004
             }
           },
           {
@@ -2476,7 +2472,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1419419699
+              "duration": 1256043449
             }
           }
         ],
@@ -2504,7 +2500,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2035759142
+              "duration": 1967907270.0000002
             }
           },
           {
@@ -2517,7 +2513,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1720289859
+              "duration": 3147784126
             }
           },
           {
@@ -2526,11 +2522,11 @@
             "line": 24,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 568271183
+              "duration": 227573415
             }
           },
           {
@@ -2539,11 +2535,11 @@
             "line": 25,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 473549
+              "duration": 467985
             }
           },
           {
@@ -2552,11 +2548,11 @@
             "line": 26,
             "name": "the \"outlined required\" should equal the value \"Testing\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:74"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:98"
             },
             "result": {
               "status": "passed",
-              "duration": 3239176523
+              "duration": 4023168895
             }
           },
           {
@@ -2565,11 +2561,11 @@
             "line": 27,
             "name": "the \"outlined disabled\" should equal the value \"Talks\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:74"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:98"
             },
             "result": {
               "status": "passed",
-              "duration": 14053990
+              "duration": 111704720
             }
           },
           {
@@ -2578,11 +2574,11 @@
             "line": 28,
             "name": "the \"outlined read only\" should equal the value \"Hub\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:74"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:98"
             },
             "result": {
               "status": "passed",
-              "duration": 14429608
+              "duration": 39861340
             }
           },
           {
@@ -2591,11 +2587,11 @@
             "line": 29,
             "name": "the \"outlined required\" should be enabled",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:94"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:125"
             },
             "result": {
               "status": "passed",
-              "duration": 8985491
+              "duration": 28766580
             }
           },
           {
@@ -2604,11 +2600,11 @@
             "line": 30,
             "name": "the \"outlined disabled\" should not be enabled",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:94"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:125"
             },
             "result": {
               "status": "passed",
-              "duration": 6227030
+              "duration": 147957168
             }
           },
           {
@@ -2617,11 +2613,11 @@
             "line": 31,
             "name": "I fill in the \"outlined required\" input with \"Testing Talks Online\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 45584709
+              "duration": 655208314
             }
           },
           {
@@ -2630,11 +2626,11 @@
             "line": 32,
             "name": "the \"outlined required\" should equal the value \"Testing Talks Online\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:74"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:98"
             },
             "result": {
               "status": "passed",
-              "duration": 141834984
+              "duration": 349544238
             }
           },
           {
@@ -2642,7 +2638,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 669814918
+              "duration": 859950350
             }
           }
         ],
@@ -2670,7 +2666,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2193563589
+              "duration": 2113252176.9999998
             }
           },
           {
@@ -2683,7 +2679,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1758551829
+              "duration": 2574180673
             }
           },
           {
@@ -2692,11 +2688,11 @@
             "line": 39,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 379650285
+              "duration": 298469029
             }
           },
           {
@@ -2705,11 +2701,11 @@
             "line": 40,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 503206.00000000006
+              "duration": 1981514
             }
           },
           {
@@ -2718,11 +2714,11 @@
             "line": 41,
             "name": "the \"outlined error\" should contain the text \"Error\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2466056670
+              "duration": 4775603971
             }
           },
           {
@@ -2731,11 +2727,11 @@
             "line": 42,
             "name": "the \"outlined error text\" should contain the text \"Incorrect entry.\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 739110596
+              "duration": 13437828
             }
           },
           {
@@ -2743,7 +2739,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 732747135
+              "duration": 1240553548
             }
           }
         ],
@@ -2782,7 +2778,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2364949395
+              "duration": 1742237854
             }
           },
           {
@@ -2795,7 +2791,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1962512663
+              "duration": 3053105380
             }
           },
           {
@@ -2804,11 +2800,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 290285637
+              "duration": 531497567
             }
           },
           {
@@ -2817,11 +2813,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 420525
+              "duration": 336214
             }
           },
           {
@@ -2830,11 +2826,11 @@
             "line": 9,
             "name": "I click the \"primary\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 3266329219
+              "duration": 4280955863.9999995
             }
           },
           {
@@ -2843,11 +2839,11 @@
             "line": 10,
             "name": "the \"primary\" should contain the text \"Primary\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 9046433
+              "duration": 112544398
             }
           },
           {
@@ -2856,11 +2852,11 @@
             "line": 11,
             "name": "the \"secondary\" should not be enabled",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:94"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:125"
             },
             "result": {
               "status": "passed",
-              "duration": 7013428
+              "duration": 148925357
             }
           },
           {
@@ -2869,11 +2865,11 @@
             "line": 12,
             "name": "the \"secondary\" should equal the text \"Disabled\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:34"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 121264135
+              "duration": 33816338
             }
           },
           {
@@ -2882,11 +2878,11 @@
             "line": 13,
             "name": "I click the \"third\" link",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 956484313
+              "duration": 455981141
             }
           },
           {
@@ -2895,11 +2891,11 @@
             "line": 14,
             "name": "the \"third\" should contain the text \"Link\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 558240186
+              "duration": 215938028
             }
           },
           {
@@ -2907,7 +2903,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3286737802
+              "duration": 476178950
             }
           }
         ],
@@ -2946,7 +2942,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1783459905.0000002
+              "duration": 1920976201.9999998
             }
           },
           {
@@ -2959,7 +2955,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1732901884
+              "duration": 2630121536
             }
           },
           {
@@ -2968,11 +2964,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 315835411
+              "duration": 598389544
             }
           },
           {
@@ -2981,11 +2977,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 499228
+              "duration": 2694988
             }
           },
           {
@@ -2994,11 +2990,11 @@
             "line": 9,
             "name": "I fill in the \"email\" input with \"$.TEST_EMAIL\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 4215528018
+              "duration": 4476658955
             }
           },
           {
@@ -3007,11 +3003,11 @@
             "line": 10,
             "name": "I fill in the \"password\" input with \"$.TEST_PASSWORD\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 164063227
+              "duration": 128629160.00000001
             }
           },
           {
@@ -3020,24 +3016,24 @@
             "line": 11,
             "name": "the \"email\" should contain the value \"admin@testingtalkshub.com.au\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 51451161
+              "duration": 187357174
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the \"password\" should contain the value \"Password1234\"",
+            "name": "the \"password\" should contain the value \"4S42xAr12\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 31379905
+              "duration": 20370582
             }
           },
           {
@@ -3045,7 +3041,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1477423087.0000002
+              "duration": 2206252954
             }
           }
         ],
@@ -3059,8 +3055,8 @@
             "line": 4
           },
           {
-            "name": "@localhost",
-            "line": 14
+            "name": "@production",
+            "line": 19
           }
         ],
         "type": "scenario"
@@ -3077,7 +3073,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2514472129
+              "duration": 2023813084
             }
           },
           {
@@ -3090,7 +3086,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1495779890
+              "duration": 2397438412
             }
           },
           {
@@ -3099,11 +3095,11 @@
             "line": 29,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 333348221
+              "duration": 483362676
             }
           },
           {
@@ -3112,11 +3108,11 @@
             "line": 30,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 694377
+              "duration": 918927
             }
           },
           {
@@ -3125,11 +3121,11 @@
             "line": 31,
             "name": "I fill in the \"email\" input with \"cam.testtalkls\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3737269925
+              "duration": 4357315897
             }
           },
           {
@@ -3138,11 +3134,11 @@
             "line": 32,
             "name": "I fill in the \"password\" input with \"Password1234\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 229941114
+              "duration": 80294225
             }
           },
           {
@@ -3151,11 +3147,11 @@
             "line": 33,
             "name": "the \"email error\" should contain the text \"Please include an '@' in the email address.\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 34471083
+              "duration": 32204910
             }
           },
           {
@@ -3163,7 +3159,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 684730511
+              "duration": 1832837808
             }
           }
         ],
@@ -3191,7 +3187,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2503505223
+              "duration": 1904169482
             }
           },
           {
@@ -3204,7 +3200,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1554885401
+              "duration": 2638550565
             }
           },
           {
@@ -3213,11 +3209,11 @@
             "line": 29,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 323258415
+              "duration": 559108228
             }
           },
           {
@@ -3226,11 +3222,11 @@
             "line": 30,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 578217
+              "duration": 4602095
             }
           },
           {
@@ -3239,11 +3235,11 @@
             "line": 31,
             "name": "I fill in the \"email\" input with \"testing talks\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3503789287
+              "duration": 4157969922
             }
           },
           {
@@ -3252,11 +3248,11 @@
             "line": 32,
             "name": "I fill in the \"password\" input with \"Password1234\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 157131170
+              "duration": 68707251
             }
           },
           {
@@ -3265,11 +3261,11 @@
             "line": 33,
             "name": "the \"email error\" should contain the text \"Please include an '@' in the email address.\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 15425190
+              "duration": 43944148
             }
           },
           {
@@ -3277,7 +3273,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 842823861
+              "duration": 714516675
             }
           }
         ],
@@ -3305,7 +3301,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2469704371
+              "duration": 1793000665
             }
           },
           {
@@ -3318,7 +3314,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1662696657
+              "duration": 2809276436
             }
           },
           {
@@ -3327,11 +3323,11 @@
             "line": 29,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 316602768
+              "duration": 376058405
             }
           },
           {
@@ -3340,11 +3336,11 @@
             "line": 30,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 289047
+              "duration": 423240
             }
           },
           {
@@ -3353,11 +3349,11 @@
             "line": 31,
             "name": "I fill in the \"email\" input with \"cam\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3501333687
+              "duration": 4056993892
             }
           },
           {
@@ -3366,11 +3362,11 @@
             "line": 32,
             "name": "I fill in the \"password\" input with \"Password1234\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 215642271
+              "duration": 257448494.99999997
             }
           },
           {
@@ -3379,11 +3375,11 @@
             "line": 33,
             "name": "the \"email error\" should contain the text \"Please include an '@' in the email address.\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 15791870
+              "duration": 59374220
             }
           },
           {
@@ -3391,7 +3387,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2525061363
+              "duration": 844864609
             }
           }
         ],
@@ -3430,7 +3426,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2456668691
+              "duration": 1901253870
             }
           },
           {
@@ -3443,7 +3439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1488082359
+              "duration": 2576791023
             }
           },
           {
@@ -3452,11 +3448,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 370112798
+              "duration": 250292329
             }
           },
           {
@@ -3465,11 +3461,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 390688
+              "duration": 485594
             }
           },
           {
@@ -3478,11 +3474,11 @@
             "line": 9,
             "name": "the \"error alert\" should contain the text \"This is an error alert — check it out!\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 2362025049
+              "duration": 1863228442
             }
           },
           {
@@ -3491,11 +3487,11 @@
             "line": 10,
             "name": "the \"warning alert\" should contain the text \"This is a warning alert — check it out!\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 914471924
+              "duration": 1236185259
             }
           },
           {
@@ -3504,11 +3500,11 @@
             "line": 11,
             "name": "the \"info alert\" should contain the text \"This is an info alert — check it out!\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 13665722
+              "duration": 16573660
             }
           },
           {
@@ -3517,11 +3513,11 @@
             "line": 12,
             "name": "the \"success alert\" should contain the text \"This is a success alert — check it out!\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 8019178.999999999
+              "duration": 18542456
             }
           },
           {
@@ -3529,7 +3525,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1202760692
+              "duration": 384810987
             }
           }
         ],
@@ -3568,7 +3564,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1561974259
+              "duration": 1843860608.9999998
             }
           },
           {
@@ -3581,7 +3577,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2191242525
+              "duration": 4745740612
             }
           },
           {
@@ -3590,11 +3586,11 @@
             "line": 7,
             "name": "I refresh the \"home\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:42"
+              "location": "src/step-definitions/navigation.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 1477571418.9999998
+              "duration": 915180487
             }
           },
           {
@@ -3603,11 +3599,11 @@
             "line": 8,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 258536428
+              "duration": 273308775
             }
           },
           {
@@ -3616,11 +3612,11 @@
             "line": 9,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 320208
+              "duration": 310696
             }
           },
           {
@@ -3629,11 +3625,11 @@
             "line": 10,
             "name": "I refresh the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:42"
+              "location": "src/step-definitions/navigation.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 3970130683
+              "duration": 3781155400
             }
           },
           {
@@ -3641,7 +3637,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 401219852
+              "duration": 1888705964
             }
           }
         ],
@@ -3680,7 +3676,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1939470634
+              "duration": 1481842848
             }
           },
           {
@@ -3693,7 +3689,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1729683957
+              "duration": 2461252745
             }
           },
           {
@@ -3702,11 +3698,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 168875596
+              "duration": 527384903
             }
           },
           {
@@ -3715,11 +3711,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 305830
+              "duration": 411940
             }
           },
           {
@@ -3728,11 +3724,11 @@
             "line": 9,
             "name": "the \"female label\" should not contain the text \"Male\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 3095285165
+              "duration": 1799115985
             }
           },
           {
@@ -3741,11 +3737,11 @@
             "line": 10,
             "name": "the \"male label\" should not contain the text \"Female\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 39869085
+              "duration": 40885208
             }
           },
           {
@@ -3754,11 +3750,11 @@
             "line": 11,
             "name": "the \"female\" radio button should be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 12390998
+              "duration": 550999547
             }
           },
           {
@@ -3767,11 +3763,11 @@
             "line": 12,
             "name": "the \"male\" radio button should not be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 688085263
+              "duration": 23150112
             }
           },
           {
@@ -3780,11 +3776,11 @@
             "line": 13,
             "name": "I check the \"male\" radio button",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 280899275
+              "duration": 111163029
             }
           },
           {
@@ -3793,11 +3789,11 @@
             "line": 14,
             "name": "the \"male\" radio button should be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 20427398
+              "duration": 28861601
             }
           },
           {
@@ -3806,11 +3802,11 @@
             "line": 15,
             "name": "the \"female\" radio button should not be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 11594474
+              "duration": 17487203
             }
           },
           {
@@ -3819,11 +3815,11 @@
             "line": 16,
             "name": "I check the \"female\" radio button",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 425721960
+              "duration": 176612706
             }
           },
           {
@@ -3832,11 +3828,11 @@
             "line": 17,
             "name": "the \"female\" radio button should be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 8553014
+              "duration": 26681256
             }
           },
           {
@@ -3845,11 +3841,11 @@
             "line": 18,
             "name": "the \"male\" radio button should not be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 7474880
+              "duration": 30422544
             }
           },
           {
@@ -3857,7 +3853,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1088329068
+              "duration": 1880880216
             }
           }
         ],
@@ -3896,7 +3892,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2137752789.0000002
+              "duration": 2062744614.0000002
             }
           },
           {
@@ -3909,7 +3905,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2556491219
+              "duration": 5042688041
             }
           },
           {
@@ -3918,11 +3914,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 349624307
+              "duration": 249067581
             }
           },
           {
@@ -3931,11 +3927,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 489005
+              "duration": 437693
             }
           },
           {
@@ -3944,11 +3940,11 @@
             "line": 9,
             "name": "I select the \"10\" option from the \"age\"",
             "match": {
-              "location": "src/step-definitions/form.ts:38"
+              "location": "src/step-definitions/form.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 3812614118
+              "duration": 4450659013
             }
           },
           {
@@ -3957,11 +3953,11 @@
             "line": 10,
             "name": "the \"age\" should contain the value \"10\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 35287558
+              "duration": 16452093.000000002
             }
           },
           {
@@ -3970,11 +3966,11 @@
             "line": 11,
             "name": "I select the \"20\" option from the \"age\"",
             "match": {
-              "location": "src/step-definitions/form.ts:38"
+              "location": "src/step-definitions/form.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 89329664
+              "duration": 29178470
             }
           },
           {
@@ -3983,11 +3979,11 @@
             "line": 12,
             "name": "the \"age\" should contain the value \"20\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 22713569
+              "duration": 16346423.999999998
             }
           },
           {
@@ -3996,11 +3992,11 @@
             "line": 13,
             "name": "I select the \"30\" option from the \"age\"",
             "match": {
-              "location": "src/step-definitions/form.ts:38"
+              "location": "src/step-definitions/form.ts:43"
             },
             "result": {
               "status": "passed",
-              "duration": 106363402
+              "duration": 163841465
             }
           },
           {
@@ -4009,11 +4005,11 @@
             "line": 14,
             "name": "the \"age\" should contain the value \"30\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 16261372.000000002
+              "duration": 23654249
             }
           },
           {
@@ -4021,7 +4017,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1389987033
+              "duration": 333566016
             }
           }
         ],
@@ -4060,7 +4056,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2046760302
+              "duration": 2375630678
             }
           },
           {
@@ -4073,7 +4069,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2167044830
+              "duration": 2273992682
             }
           },
           {
@@ -4082,11 +4078,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 531407339
+              "duration": 224961269
             }
           },
           {
@@ -4095,11 +4091,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 302863
+              "duration": 3451851
             }
           },
           {
@@ -4108,11 +4104,11 @@
             "line": 9,
             "name": "I retrieve the \"first value\" text and store it as \"first value\" in global variables",
             "match": {
-              "location": "src/step-definitions/stored.ts:8"
+              "location": "src/step-definitions/stored.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 3897137883
+              "duration": 2750754155
             }
           },
           {
@@ -4121,11 +4117,11 @@
             "line": 10,
             "name": "the \"second value\" should equal the \"first value\" stored in global variables",
             "match": {
-              "location": "src/step-definitions/assertions/verify-stored-value.ts:8"
+              "location": "src/step-definitions/assertions/verify-stored-value.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 17220809
+              "duration": 61930825
             }
           },
           {
@@ -4134,11 +4130,11 @@
             "line": 11,
             "name": "the \"fourth value\" should not equal the \"first value\" stored in global variables",
             "match": {
-              "location": "src/step-definitions/assertions/verify-stored-value.ts:8"
+              "location": "src/step-definitions/assertions/verify-stored-value.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 10605289
+              "duration": 21244749
             }
           },
           {
@@ -4147,11 +4143,11 @@
             "line": 12,
             "name": "the \"fourth value\" should contain the \"first value\" stored in global variables",
             "match": {
-              "location": "src/step-definitions/assertions/verify-stored-value.ts:29"
+              "location": "src/step-definitions/assertions/verify-stored-value.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 8491952
+              "duration": 22434084
             }
           },
           {
@@ -4160,11 +4156,11 @@
             "line": 13,
             "name": "the \"fifth value\" should contain the \"first value\" stored in global variables",
             "match": {
-              "location": "src/step-definitions/assertions/verify-stored-value.ts:29"
+              "location": "src/step-definitions/assertions/verify-stored-value.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 8351896
+              "duration": 19332325
             }
           },
           {
@@ -4173,11 +4169,11 @@
             "line": 14,
             "name": "the \"third value\" should not contain the \"first value\" stored in global variables",
             "match": {
-              "location": "src/step-definitions/assertions/verify-stored-value.ts:29"
+              "location": "src/step-definitions/assertions/verify-stored-value.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 5826281
+              "duration": 48416126
             }
           },
           {
@@ -4185,7 +4181,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1803538918
+              "duration": 435630499
             }
           }
         ],
@@ -4224,7 +4220,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2109104425.9999998
+              "duration": 2135764122
             }
           },
           {
@@ -4237,7 +4233,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2140205837
+              "duration": 2498586115
             }
           },
           {
@@ -4246,11 +4242,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 383359867
+              "duration": 375379389
             }
           },
           {
@@ -4259,11 +4255,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 324250
+              "duration": 634764
             }
           },
           {
@@ -4272,11 +4268,11 @@
             "line": 9,
             "name": "the \"switch one\" switch should be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2195231963
+              "duration": 4493334735
             }
           },
           {
@@ -4285,11 +4281,11 @@
             "line": 10,
             "name": "I uncheck the \"switch one\" switch",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1353330000
+              "duration": 97932590
             }
           },
           {
@@ -4298,11 +4294,11 @@
             "line": 11,
             "name": "the \"switch one\" switch should not be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 14684353
+              "duration": 40759837
             }
           },
           {
@@ -4311,11 +4307,11 @@
             "line": 12,
             "name": "I check the \"switch one\" switch",
             "match": {
-              "location": "src/step-definitions/check.ts:12"
+              "location": "src/step-definitions/check.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 218924205
+              "duration": 246620588
             }
           },
           {
@@ -4324,11 +4320,11 @@
             "line": 13,
             "name": "the \"switch one\" switch should be checked",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-checked.ts:8"
+              "location": "src/step-definitions/assertions/verify-element-checked.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 10221266
+              "duration": 32689279.999999996
             }
           },
           {
@@ -4337,11 +4333,11 @@
             "line": 14,
             "name": "the \"switch two\" should not be enabled",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:94"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:125"
             },
             "result": {
               "status": "passed",
-              "duration": 7569990
+              "duration": 23771001
             }
           },
           {
@@ -4349,7 +4345,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 704633758
+              "duration": 381917612
             }
           }
         ],
@@ -4388,7 +4384,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2005084112
+              "duration": 2178614086
             }
           },
           {
@@ -4401,7 +4397,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2767815100
+              "duration": 2576934471
             }
           },
           {
@@ -4410,11 +4406,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 438756689
+              "duration": 342502779
             }
           },
           {
@@ -4423,11 +4419,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 334311
+              "duration": 958044
             }
           },
           {
@@ -4481,11 +4477,11 @@
             "line": 9,
             "name": "the \"basic\" table should equal the following:",
             "match": {
-              "location": "src/step-definitions/assertions/verify-table-value.ts:8"
+              "location": "src/step-definitions/assertions/verify-table-value.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 2697042012
+              "duration": 4183130785.9999995
             }
           },
           {
@@ -4539,11 +4535,11 @@
             "line": 15,
             "name": "the \"basic\" table should not equal the following:",
             "match": {
-              "location": "src/step-definitions/assertions/verify-table-value.ts:8"
+              "location": "src/step-definitions/assertions/verify-table-value.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 114966302
+              "duration": 11186255
             }
           },
           {
@@ -4551,7 +4547,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 736295134
+              "duration": 867795967
             }
           }
         ],
@@ -4590,7 +4586,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1935932941
+              "duration": 2133396228
             }
           },
           {
@@ -4603,7 +4599,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1861382748
+              "duration": 2279076409.0000005
             }
           },
           {
@@ -4612,11 +4608,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 405982648
+              "duration": 363584656
             }
           },
           {
@@ -4625,11 +4621,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 414041
+              "duration": 854320
             }
           },
           {
@@ -4638,11 +4634,11 @@
             "line": 9,
             "name": "I click the \"new tab\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 2415078727
+              "duration": 1321734154
             }
           },
           {
@@ -4651,11 +4647,11 @@
             "line": 10,
             "name": "the \"2nd\" tab should contain the title \"Contacts\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:8"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2053573444
+              "duration": 2012894502
             }
           },
           {
@@ -4664,11 +4660,11 @@
             "line": 11,
             "name": "the \"1st\" tab should contain the title \"Playground\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:8"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2003098684
+              "duration": 2004483960
             }
           },
           {
@@ -4677,11 +4673,11 @@
             "line": 12,
             "name": "I fill in the \"search\" input on the \"2nd\" tab with \"Sloane Juarez\"",
             "match": {
-              "location": "src/step-definitions/page.ts:11"
+              "location": "src/step-definitions/page.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 102157801
+              "duration": 122384031
             }
           },
           {
@@ -4690,11 +4686,11 @@
             "line": 13,
             "name": "the \"contact\" on the \"2nd\" tab should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 6643256
+              "duration": 9022131
             }
           },
           {
@@ -4703,11 +4699,11 @@
             "line": 14,
             "name": "the \"full name label\" on the \"2nd\" tab should contain the text \"Name:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 17089958
+              "duration": 14961094
             }
           },
           {
@@ -4716,11 +4712,11 @@
             "line": 15,
             "name": "the \"name\" on the \"2nd\" tab should equal the text \"Sloane Juarez\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 13814363
+              "duration": 14932267
             }
           },
           {
@@ -4729,11 +4725,11 @@
             "line": 16,
             "name": "the \"gender label\" on the \"2nd\" tab should contain the text \"Gender:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 5411606
+              "duration": 11230193
             }
           },
           {
@@ -4742,11 +4738,11 @@
             "line": 17,
             "name": "the \"gender\" on the \"2nd\" tab should equal the text \"Female\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 12772691
+              "duration": 14489416
             }
           },
           {
@@ -4755,11 +4751,11 @@
             "line": 18,
             "name": "the \"address label\" on the \"2nd\" tab should contain the text \"Address:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 20286231
+              "duration": 16808608
             }
           },
           {
@@ -4768,11 +4764,11 @@
             "line": 19,
             "name": "the \"address\" on the \"2nd\" tab should equal the text \"8162 Tincidunt Rd., Ludhiana\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 5592028
+              "duration": 14622615
             }
           },
           {
@@ -4781,11 +4777,11 @@
             "line": 20,
             "name": "the \"edit\" on the \"2nd\" tab should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 5111476
+              "duration": 4334847
             }
           },
           {
@@ -4794,11 +4790,11 @@
             "line": 21,
             "name": "the \"delete\" on the \"2nd\" tab should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 3467811
+              "duration": 4986809
             }
           },
           {
@@ -4806,7 +4802,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 229509184
+              "duration": 330397985
             }
           }
         ],
@@ -4845,7 +4841,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1999874406
+              "duration": 1992354523
             }
           },
           {
@@ -4858,7 +4854,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1994775381
+              "duration": 4525034808
             }
           },
           {
@@ -4867,11 +4863,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 372551091
+              "duration": 486925514
             }
           },
           {
@@ -4880,11 +4876,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 385163
+              "duration": 571507
             }
           },
           {
@@ -4893,11 +4889,11 @@
             "line": 9,
             "name": "the \"textarea\" should contain the text \"Testing Talks Hub has been established to teach the community how to build world class automation frameworks using the latest tooling.\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:12"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1591333877
+              "duration": 1860800669
             }
           },
           {
@@ -4906,11 +4902,11 @@
             "line": 10,
             "name": "I fill in the \"textarea\" input with \"Learning to input into textarea\"",
             "match": {
-              "location": "src/step-definitions/form.ts:15"
+              "location": "src/step-definitions/form.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 797841699
+              "duration": 205447169
             }
           },
           {
@@ -4919,11 +4915,11 @@
             "line": 11,
             "name": "the \"textarea\" should contain the value \"Learning to input into textarea\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:55"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:72"
             },
             "result": {
               "status": "passed",
-              "duration": 23294554
+              "duration": 485150094
             }
           },
           {
@@ -4931,7 +4927,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1257832109
+              "duration": 454674567
             }
           }
         ],
@@ -4970,7 +4966,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1786117626
+              "duration": 1666061878.9999998
             }
           },
           {
@@ -4983,7 +4979,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1603172711.0000002
+              "duration": 2894017888
             }
           },
           {
@@ -4992,11 +4988,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 239449532
+              "duration": 351123451
             }
           },
           {
@@ -5005,11 +5001,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 412234
+              "duration": 425886
             }
           },
           {
@@ -5018,11 +5014,11 @@
             "line": 9,
             "name": "the \"tooltip\" \"title\" attribute should contain the text \"This is a tooltip\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:134"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:179"
             },
             "result": {
               "status": "passed",
-              "duration": 1020252948
+              "duration": 4021335814
             }
           },
           {
@@ -5031,11 +5027,11 @@
             "line": 10,
             "name": "the \"tooltip\" \"title\" attribute should not contain the text \"This is not a tooltip\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-element-value.ts:134"
+              "location": "src/step-definitions/assertions/verify-element-value.ts:179"
             },
             "result": {
               "status": "passed",
-              "duration": 366151387
+              "duration": 14927235
             }
           },
           {
@@ -5043,7 +5039,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 309610778
+              "duration": 239839787
             }
           }
         ],
@@ -5082,7 +5078,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1632556160
+              "duration": 1584061936
             }
           },
           {
@@ -5095,7 +5091,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1110434658
+              "duration": 2380006671
             }
           },
           {
@@ -5104,11 +5100,11 @@
             "line": 7,
             "name": "I click the \"playground\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 224319564
+              "duration": 206045839
             }
           },
           {
@@ -5117,11 +5113,11 @@
             "line": 8,
             "name": "I am directed to the \"playground\" page",
             "match": {
-              "location": "src/step-definitions/navigation.ts:28"
+              "location": "src/step-definitions/navigation.ts:29"
             },
             "result": {
               "status": "passed",
-              "duration": 419767
+              "duration": 788586
             }
           },
           {
@@ -5130,11 +5126,11 @@
             "line": 9,
             "name": "I click the \"open window\" button",
             "match": {
-              "location": "src/step-definitions/click.ts:12"
+              "location": "src/step-definitions/click.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1786853478.9999998
+              "duration": 2562720159
             }
           },
           {
@@ -5143,11 +5139,11 @@
             "line": 10,
             "name": "the \"2nd\" window should contain the title \"Contacts\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:8"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2012088111
+              "duration": 2008537836
             }
           },
           {
@@ -5156,11 +5152,11 @@
             "line": 11,
             "name": "the \"1st\" window should contain the title \"Playground\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:8"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2003153461
+              "duration": 2003388478
             }
           },
           {
@@ -5169,11 +5165,11 @@
             "line": 12,
             "name": "I fill in the \"search\" input on the \"2nd\" window with \"Sloane Juarez\"",
             "match": {
-              "location": "src/step-definitions/page.ts:11"
+              "location": "src/step-definitions/page.ts:14"
             },
             "result": {
               "status": "passed",
-              "duration": 96059693
+              "duration": 114496665
             }
           },
           {
@@ -5182,11 +5178,11 @@
             "line": 13,
             "name": "the \"contact\" on the \"2nd\" window should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 19358951
+              "duration": 9139385
             }
           },
           {
@@ -5195,11 +5191,11 @@
             "line": 14,
             "name": "the \"full name label\" on the \"2nd\" window should contain the text \"Name:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 8624538
+              "duration": 15569047
             }
           },
           {
@@ -5208,11 +5204,11 @@
             "line": 15,
             "name": "the \"name\" on the \"2nd\" window should equal the text \"Sloane Juarez\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 8588683
+              "duration": 13764290
             }
           },
           {
@@ -5221,11 +5217,11 @@
             "line": 16,
             "name": "the \"gender label\" on the \"2nd\" window should contain the text \"Gender:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 5367007
+              "duration": 9808750
             }
           },
           {
@@ -5234,11 +5230,11 @@
             "line": 17,
             "name": "the \"gender\" on the \"2nd\" window should equal the text \"Female\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 6479162
+              "duration": 10917824
             }
           },
           {
@@ -5247,11 +5243,11 @@
             "line": 18,
             "name": "the \"address label\" on the \"2nd\" window should contain the text \"Address:\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:51"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:59"
             },
             "result": {
               "status": "passed",
-              "duration": 6347267
+              "duration": 13988222
             }
           },
           {
@@ -5260,11 +5256,11 @@
             "line": 19,
             "name": "the \"address\" on the \"2nd\" window should equal the text \"8162 Tincidunt Rd., Ludhiana\"",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:73"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:89"
             },
             "result": {
               "status": "passed",
-              "duration": 5414714
+              "duration": 8474572
             }
           },
           {
@@ -5273,11 +5269,11 @@
             "line": 20,
             "name": "the \"edit\" on the \"2nd\" window should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 5214630
+              "duration": 4285874
             }
           },
           {
@@ -5286,11 +5282,11 @@
             "line": 21,
             "name": "the \"delete\" on the \"2nd\" window should be displayed",
             "match": {
-              "location": "src/step-definitions/assertions/verify-new-page.ts:29"
+              "location": "src/step-definitions/assertions/verify-new-page.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 4667955
+              "duration": 4758956
             }
           },
           {
@@ -5298,7 +5294,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 287373592
+              "duration": 235342085
             }
           }
         ],
