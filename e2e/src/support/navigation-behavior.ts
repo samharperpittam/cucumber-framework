@@ -1,5 +1,6 @@
 import { Page } from 'playwright';
 import {GlobalConfig, GlobalVariables, PageId} from '../env/global';
+import { logger } from '../logger';
 
 export const navigateToPage = async (
     page: Page,
@@ -13,6 +14,7 @@ export const navigateToPage = async (
     const hostPath = hostsConfig[`${hostName}`];
 
     const url = new URL(hostPath);
+    logger.debug( 'hostPath', hostPath)
 
     const pageConfigItem = pagesConfig[pageId];
     url.pathname = pageConfigItem.route;
@@ -34,8 +36,10 @@ export const currentPathMatchesPageId = (
     page: Page,
     pageId: PageId,
     globalConfig: GlobalConfig
+  
 ): boolean => {
     const { pathname: currentPath } = new URL(page.url())
+    logger.debug('currentPath', currentPath)
     return pathMatchesPageId(currentPath, pageId, globalConfig)
 };
 
