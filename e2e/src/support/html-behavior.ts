@@ -1,13 +1,13 @@
-import { Page, Frame } from 'playwright';
-import { ElementLocator } from '../env/global';
-import {ElementHandle} from "@playwright/test";
+import { Page, Frame } from 'playwright'
+import { ElementLocator } from '../env/global'
+import {ElementHandle} from "@playwright/test"
 
 export const clickElement = async (
     page: Page,
     elementIdentifier: ElementLocator
 ): Promise<void> => {
-    await page.click(elementIdentifier);
-};
+    await page.click(elementIdentifier)
+}
 
 export const clickElementAtIndex = async(
     page: Page,
@@ -23,18 +23,18 @@ export const inputElementValue = async (
     elementIdentifier: ElementLocator,
     input: string
 ): Promise<void> => {
-    await page.focus(elementIdentifier);
-    await page.fill(elementIdentifier, input);
-};
+    await page.focus(elementIdentifier)
+    await page.fill(elementIdentifier, input)
+}
 
 export const selectElementValue = async (
     page: Page,
     elementIdentifier: ElementLocator,
     option: string
 ): Promise<void> => {
-    await page.focus(elementIdentifier);
-    await page.selectOption(elementIdentifier, option);
-};
+    await page.focus(elementIdentifier)
+    await page.selectOption(elementIdentifier, option)
+}
 
 export const checkElement = async (
     page: Page,
@@ -106,9 +106,9 @@ export const getElementValue = async(
     elementIdentifier: ElementLocator
 ): Promise<string | null> => {
     const value = await page.$eval<string, HTMLSelectElement>(elementIdentifier, el => {
-        return el.value;
+        return el.value
     })
-    return value;
+    return value
 }
 
 export const getIframeElement = async (

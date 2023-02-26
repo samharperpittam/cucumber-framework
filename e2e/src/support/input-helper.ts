@@ -17,5 +17,5 @@ const getLookupVariable = (input: string, lookupTrigger: string, config: GlobalC
 
 export const parseInput = (input: string, config: GlobalConfig): string => {
     const lookupTrigger = process.env.VAR_LOOKUP_TRIGGER ?? '$.'
-    return isLookupVariable(input, lookupTrigger) ? getLookupVariable(input, lookupTrigger, config): input;
+    return isLookupVariable(input, lookupTrigger) ? getLookupVariable(input, lookupTrigger, config): input
 }

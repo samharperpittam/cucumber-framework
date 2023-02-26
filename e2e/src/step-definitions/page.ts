@@ -1,6 +1,6 @@
 import { Then } from '@cucumber/cucumber'
 import {
-    waitFor,
+    waitFor, waitForResult,
     waitForSelectorOnPage
 } from '../support/wait-for-behavior'
 import {
@@ -9,7 +9,7 @@ import {
 import { getElementLocator } from '../support/web-element-helper'
 import { ScenarioWorld } from './setup/world'
 import { ElementKey } from '../env/global'
-import {logger} from "../logger";
+import {logger} from "../logger"
 
 Then(
     /^I fill in the "([^"]*)" input on the "([0-9]+th|[0-9]+st|[0-9]+nd|[0-9]+rd)" (?:tab|window) with "([^"]*)"$/,
@@ -17,7 +17,7 @@ Then(
         const {
             screen: { page, context },
             globalConfig,
-        } = this;
+        } = this
 
         logger.log(`I fill in the ${elementKey} input on the ${elementPosition} window|tab with ${inputValue}`)
 
@@ -26,15 +26,18 @@ Then(
         const elementIdentifier = getElementLocator(page, elementKey, globalConfig)
 
         await waitFor(async () => {
-            let pages = context.pages();
+                let pages = context.pages()
 
-            const elementStable = await waitForSelectorOnPage(page, elementIdentifier, pages, pageIndex)
+                const elementStable = await waitForSelectorOnPage(page, elementIdentifier, pages, pageIndex)
 
-            if (elementStable) {
-                await inputValueOnPage(pages, pageIndex, elementIdentifier, inputValue)
-            }
+                if (elementStable) {
+                    await inputValueOnPage(pages, pageIndex, elementIdentifier, inputValue)
+                    return waitForResult.PASS
+                }
 
-            return elementStable
-        })
+                return waitForResult.ELEMENT_NOT_AVAILABLE
+            },
+            globalConfig,
+            {target: elementKey})
     }
 )

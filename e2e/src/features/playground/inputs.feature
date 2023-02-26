@@ -1,6 +1,5 @@
 Feature: As a user I can interact with autocomplete inputs
 
-  
   @smoke
   @regression
   Scenario Outline: As a user I can interact and assert on autocomplete inputs
@@ -13,9 +12,9 @@ Feature: As a user I can interact with autocomplete inputs
     And the "movies" should not contain the value "The Godfather: Part II"
 
   Examples:
-  | search | movie button    | movie              |
-  | The G  | the godfather   | The Godfather      |
-  | The D  | the dark knight | The Dark Knight    |
+    | search | movie button    | movie           |
+    | The G  | the godfather   | The Godfather   |
+    | The D  | the dark knight | The Dark Knight |
 
   @smoke
   @regression
